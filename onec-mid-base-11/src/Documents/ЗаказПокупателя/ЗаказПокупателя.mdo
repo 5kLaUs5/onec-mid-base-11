@@ -185,11 +185,27 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8360d289-6c74-4eee-be1c-649fb0da6e7f">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -206,21 +222,6 @@
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8360d289-6c74-4eee-be1c-649fb0da6e7f">
-    <name>КонтактноеЛицо</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контактное лицо</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -490,4 +491,13 @@
       <value>Счет-заказ</value>
     </synonym>
   </templates>
+  <commands uuid="5c6c2f36-6466-4223-8eaa-9ba875668711">
+    <name>ПересчитатьТаблицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитать таблицу</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
